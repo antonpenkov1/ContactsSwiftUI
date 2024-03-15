@@ -11,6 +11,11 @@
 		D2FF0AD02BA494630028F52D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF0ACF2BA494630028F52D /* ContentView.swift */; };
 		D2FF0AD22BA494680028F52D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2FF0AD12BA494680028F52D /* Assets.xcassets */; };
 		D2FF0AD52BA494680028F52D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2FF0AD42BA494680028F52D /* Preview Assets.xcassets */; };
+		D2FF0ADC2BA4957C0028F52D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF0ADB2BA4957C0028F52D /* Person.swift */; };
+		D2FF0ADF2BA495A80028F52D /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF0ADE2BA495A80028F52D /* DataStore.swift */; };
+		D2FF0AE22BA496270028F52D /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF0AE12BA496270028F52D /* ContactsView.swift */; };
+		D2FF0AE42BA496330028F52D /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF0AE32BA496330028F52D /* NumbersView.swift */; };
+		D2FF0AE62BA498BA0028F52D /* ContactDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FF0AE52BA498BA0028F52D /* ContactDetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		D2FF0ACF2BA494630028F52D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2FF0AD12BA494680028F52D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2FF0AD42BA494680028F52D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2FF0ADB2BA4957C0028F52D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		D2FF0ADE2BA495A80028F52D /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		D2FF0AE12BA496270028F52D /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		D2FF0AE32BA496330028F52D /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
+		D2FF0AE52BA498BA0028F52D /* ContactDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				D2FF0ACD2BA494630028F52D /* ContactsSwiftUIApp.swift */,
 				D2FF0ACF2BA494630028F52D /* ContentView.swift */,
+				D2FF0AE12BA496270028F52D /* ContactsView.swift */,
+				D2FF0AE52BA498BA0028F52D /* ContactDetailsView.swift */,
+				D2FF0AE32BA496330028F52D /* NumbersView.swift */,
+				D2FF0ADD2BA495800028F52D /* Models */,
+				D2FF0AE02BA495AD0028F52D /* Services */,
 				D2FF0AD12BA494680028F52D /* Assets.xcassets */,
 				D2FF0AD32BA494680028F52D /* Preview Content */,
 			);
@@ -65,6 +80,22 @@
 				D2FF0AD42BA494680028F52D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D2FF0ADD2BA495800028F52D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D2FF0ADB2BA4957C0028F52D /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D2FF0AE02BA495AD0028F52D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D2FF0ADE2BA495A80028F52D /* DataStore.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FF0ADC2BA4957C0028F52D /* Person.swift in Sources */,
+				D2FF0ADF2BA495A80028F52D /* DataStore.swift in Sources */,
 				D2FF0AD02BA494630028F52D /* ContentView.swift in Sources */,
+				D2FF0AE62BA498BA0028F52D /* ContactDetailsView.swift in Sources */,
+				D2FF0AE42BA496330028F52D /* NumbersView.swift in Sources */,
+				D2FF0AE22BA496270028F52D /* ContactsView.swift in Sources */,
 				D2FF0ACE2BA494630028F52D /* ContactsSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
